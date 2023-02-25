@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding-block: 1rem;
+}
+nav h1 {
+    margin-left: 1rem;
+}
+
+.container {
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 2rem;
+    width: 90vw;
+    margin-top: 3rem;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+}
+
+table,tr, th, td {
+    border: 1px solid black;
+    padding-block: 0.5rem;
+    border-collapse: collapse;
+}
+
+td {
+    /* padding-block: 1rem; */
+    text-align: center;
+}
+
+input {
+    outline: none;
+}
